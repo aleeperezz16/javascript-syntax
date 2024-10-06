@@ -12,6 +12,6 @@ Open a terminal and run the following command:
 ```sh
 node script.js [count]
 ```
-You can set a number of messages you want the script to generate by passing a number to the `count` parameter.
+You can set a number of messages you want the script to generate by passing a number to the `count` parameter. The number provided must be a positive number greater than `zero`.
 
 By default, if no parameter is provided, the script will generate one random message.

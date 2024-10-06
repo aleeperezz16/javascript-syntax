@@ -19,6 +19,10 @@ const getRandomMessage = () => {
 }
 
 const generateRandomMessage = (count) => {
+    if (isNaN(count) || count < 1) {
+        return 'Please provide a valid number as argument'
+    }
+
     const messages = []
     for (let i = 0; i < count; i++) {
         messages.push(getRandomMessage())
